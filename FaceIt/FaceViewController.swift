@@ -17,7 +17,7 @@ class FaceViewController: UIViewController {
         }
     }
  
-    //View
+    //View Code
     @IBOutlet weak var faceView: FaceView! {
         didSet {
             updateUI()
