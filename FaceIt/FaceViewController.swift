@@ -10,7 +10,7 @@ import UIKit
 
 class FaceViewController: UIViewController {
     
-    //Model
+    //Model Code
     var expression = FacialExpression(eyes: .Closed, eyeBrows: .Relaxed, mouth: .Smirk) {
         didSet {
             updateUI()
